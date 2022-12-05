@@ -37,6 +37,7 @@ a{
   background-position: top center;
   min-height: 700px;
   color: #fff;
+  
 }
 
 .header__top{
@@ -105,13 +106,14 @@ a{
 }
 
 .header__images{
-  position: absolute;
+  position:  absolute;
   right: 0;
-  bottom: -270px;
+  bottom: -130px;
 }
 
 .services{
   padding-top: 350px;
+  margin-top: -150px;
 }
 
 .title{
@@ -414,6 +416,11 @@ a{
   .services__item:hover {
     width: 450px;
   }
+  .services{
+    
+    margin-top: 0px;
+  }
+
 }
 
 
